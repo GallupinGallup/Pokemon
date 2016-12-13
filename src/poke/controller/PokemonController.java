@@ -1,12 +1,15 @@
 package poke.controller;
 
-public class PokemonController {
+public class PokemonController 
+{
 	
-	public PokemonController(){
+	public PokemonController()
+	{
 		
 	}
 	
-	public void start(){
+	public void start()
+	{
 		
 	}
 

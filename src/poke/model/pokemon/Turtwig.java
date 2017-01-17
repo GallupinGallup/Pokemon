@@ -1,22 +1,28 @@
+
 package poke.model.pokemon;
+
+import java.awt.Color;
 
 import poke.model.Pokemon;
 import poke.model.types.Grass;
 
-public class Turtwig extends Pokemon implements Grass {
+public class Turtwig extends Pokemon implements Grass{
 
-	public Turtwig(String name, int pokedexID) {
-		super(name, pokedexID);
+	public Turtwig(String nickName) {
+		super("Turtwig", nickName, 599);
+		super.setDefensePoints(80);
+		super.setHealthPoints(400);
+		super.setBackgroundColor(Color.LIGHT_GRAY);
 	}
 
 	@Override
-	public void absorb() {
-		
+	public int absorb() {
+		return 30;
 	}
 
 	@Override
-	public void razerLeaf() {
-		
+	public int razerLeaf() {
+		return 70;
 	}
 
 }

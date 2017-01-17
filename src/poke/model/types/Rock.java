@@ -1,6 +1,6 @@
 package poke.model.types;
 
 public interface Rock {
-	public void rockSmash();
-	public void earthQuake();
+	public int rockSmash();
+	public int earthQuake();
 }

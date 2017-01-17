@@ -6,5 +6,4 @@ public class PokemonRunner {
 		PokemonController controller = new PokemonController();
 		controller.start();
 	}
-
 }

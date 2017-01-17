@@ -1,7 +1,7 @@
 package poke.model.types;
 
 public interface Fire {
-	public void ember();
-	public void flameThrower();
+	public int ember();
+	public int flameThrower();
 
 }

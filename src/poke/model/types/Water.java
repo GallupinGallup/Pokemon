@@ -1,6 +1,6 @@
 package poke.model.types;
 
 public interface Water {
-	public void waterGun();
-	public void surf();
+	public int waterGun();
+	public int surf();
 }
